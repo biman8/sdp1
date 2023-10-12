@@ -51,13 +51,11 @@ public class Game {
         System.out.println(computerStrategy.makeChoice());
         String computerChoice = computerStrategy.makeChoice();
 
-        // Implement game logic to determine the winner
-        // Update userScore and computerScore accordingly
+
     }
 
     private String getUserChoice() {
-        // Implement user input logic (e.g., using Scanner)
-        // Return the user's choice (rock, paper, or scissors)
-        return "rock"; // Replace with actual user choice
+
+        return "rock";
     }
 }
